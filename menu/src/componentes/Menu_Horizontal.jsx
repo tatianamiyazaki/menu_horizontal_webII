@@ -18,6 +18,16 @@ export default function Menu(){
 
                 <section id="inicio">
                     <h1>Nosso Canal</h1>
+
+                    <aside className="aside">
+                        <a href="#inicio" id="inicio2">Canal</a>
+                        <a href="#cursos" id="cursos2">Cursos</a>
+                        <a href="#contatos" id="contatos2">Contatos</a>
+                        <a href="#parceiros" id="parceiros2">Pareceiros</a>
+                        <a href="#missao" id="missao2">Missão</a>
+                        <a href="#sobre" id="sobre2">Sobre</a>
+                    </aside>
+
                 </section>
 
                 <section id="cursos">
@@ -28,7 +38,7 @@ export default function Menu(){
                     <h1>Contatos</h1>
                 </section>
                 
-                <section id="Parceiros">
+                <section id="parceiros">
                     <h1>Parceiros</h1>
                 </section>
                 
@@ -39,7 +49,18 @@ export default function Menu(){
                 <section id="sobre">
                     <h1>Sobre</h1>
                 </section>
-
+                
+                <a className = "irTopo" href=".menu">Topo</a>
+                <a className = "irInicio" href="#inicio">Nosso Canal</a>                            
+                <a className = "irCursos" href="#cursos">Cursos</a>              
+                <a className = "irContatos" href="#contatos">Contatos</a>              
+                <a className = "irParceiros" href="#parceiros">Parceiros</a>              
+                <a className = "irMissao" href="#missao">Missão</a>              
+                <a className = "irSobre" href="#sobre">Sobre</a>  
+   
+                <footer>
+                    <h2>Rodapé</h2>
+                </footer>
             </div>
 
         </div>
