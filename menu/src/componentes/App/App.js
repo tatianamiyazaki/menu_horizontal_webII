@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from '../Header/Header.jsx'
 import Inicio from '../Inicio/Inicio.jsx'
+import Cursos from '../Cursos/Cursos.jsx'
 import { Route, Switch } from 'react-router'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Switch>
           <Route exact path = "/" render = {(props) => <Inicio/>}></Route>
+          <Route exact path = "/cursos" render = {(props) => <Cursos/>}></Route>
         </Switch>
       </main>
     </div>

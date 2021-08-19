@@ -10,7 +10,7 @@ export default function Header() {
             <nav className="navMenu">
                 <ul>
                     <li><Link to="/"> Nosso Canal </Link></li>
-                    <li><Link to="#cursos"> Cursos </Link></li>
+                    <li><Link to="/cursos"> Cursos </Link></li>
                     <li><Link to="#contatos"> Contatos </Link></li>
                     <li><Link to="#parceiros"> Parceiros </Link></li>
                     <li><Link to="#missao"> Missão </Link></li>
