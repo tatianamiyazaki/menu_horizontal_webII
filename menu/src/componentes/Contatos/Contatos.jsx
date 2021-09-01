@@ -1,16 +1,16 @@
 import React from 'react'
-import './Cursos.css'
+import './Contatos.css'
 
 import Titulo from '../Titulo/Titulo.jsx'
 
 
-export default function Cursos(){
+export default function Contatos(){
     return(
         <div>
-            <Titulo texto="Seção de Cursos do Site"/>
+            <Titulo texto="Seção de Contatos do Site"/>
         
         
-            <div className="cursos">
+            <div className="contatos">
 
             </div>
         </div>
